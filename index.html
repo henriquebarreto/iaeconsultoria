@@ -17,12 +17,15 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	
+	<!-- <link href="./css/navbar-fixed-top.css" rel="stylesheet"> -->
+
 	<link href="./css/carousel.css" rel="stylesheet">
 	
 	<style type='text/css'>
     body {
 		background-image:url("./images/bg-circuito.jpg");
 		/*background-repeat: no-repeat;*/
+		padding-top: 70px;
     }
 	h1, h2, h3, h4, h5, h6, p {
 		color: #eee;
@@ -32,13 +35,18 @@
   </head>
   <body>
   <!-- Teste para segundo commit -->
-	<nav class="navbar navbar-inverse">
-	  <div class="container-fluid">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
 		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
 		  <a class="navbar-brand" href="./index.html">IAE Consultoria</a>
 		</div>
-		<div>
-		  <ul class="nav navbar-nav">
+		<div class="collapse navbar-collapse" id="myNavbar">
+		  <ul class="nav navbar-nav navbar-right">
 			<li class="active"><a href="./index.html">Home</a></li>
 			<li><a href="./sobre.html">Sobre</a></li>
 			<li><a href="./servicos.html">Serviços</a></li>
@@ -47,11 +55,13 @@
 		</div>
 	  </div>
 	</nav>
-	
+
 	<div class="container">
 	
 	  <div class="jumbotron">
-		<h1>IAE Consultoria</h1>
+		<!-- <h1>IAE Consultoria</h1> -->
+		<img src="./images/3 - Logo - fundo transparente.png" alt="Generic placeholder image" width="200" height="200">
+		<p style="color: inherit;">IAE Consultoria</p>
 		<h3 style="color: inherit;">Slogan,.... chamadex,,, tralala</h3>
 		<p class="lead" style="color: inherit;">Slogan,.... chamadex,,, tralala</p>      
 	  </div><!--/jumbotron-->
@@ -66,21 +76,21 @@
           <h2>INTEGRAÇÃO</h2>
           <p>Suporte e instalação de redes de computadores, câmeras de segurança, telefonia e PABX, 
 			cercas elétricas, interfonia residencial e condominal.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="./servicos.html" role="button">Saiba mais &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-rounded" src="./images/Sifrão - Copia.png" alt="Generic placeholder image" width="160" height="160">
           <h2>ECONOMIA</h2>
           <p>Redução de custos para a sua empresa
 			Economize em planos e serviços de TI, Telefonia e Seguranca.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="./servicos.html" role="button">Saiba mais  &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img class="img-rounded" src="./images/sucesso-empresarial-confianca - Copia.png" alt="Generic placeholder image" width="160" height="160">
           <h2>SOB MEDIDA</h2>
           <p>Planos sobre medida para você!!! Não pague mais por serviços que não precisará utilizar. 
 			Todos os nossos planos são abertos e totalmente adaptados para as necessidades da sua empresa.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-default" href="./servicos.html" role="button">Saiba mais  &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
