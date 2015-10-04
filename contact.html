@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>IAE Consultoria - Contato</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,14 +19,23 @@
      <style type='text/css'>
     body {
         /*background-image:url("./images/bg-circuito.jpg");*/
-        background-image:url("./images/Fundo.png");
+        /*background-image:url("./images/Fundo.png");*/
+        /*background-image:url("./images/dreamstime_m_46390159.jpg");*/
+            /*teste back fixo*/
+            background: url(./images/backgroundpropostacomercialv2.jpg) no-repeat center center;
+            background-attachment: fixed;
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+            /*teste back fixo*/
         /*background-repeat: no-repeat;*/
         padding-top: 70px;
     }
     h1, h2, h3, h4, h5, h6, p {
         /*color: #eee;*/
     }     
-    </style> 
+    </style>  
   </head>
   <body>
     
@@ -56,37 +65,36 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-8">
-                <h3>Send us a Message</h3>
-                <h3>Teste de acentuação</h3>
+                <h3>Envie uma mensagem</h3>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Full Name:</label>
-                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <label>Nome:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Por favor, digite seu nome.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
-                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <label>Telefone:</label>
+                            <input type="tel" class="form-control" id="phone" required data-validation-required-message="Por favor, digite seu telefone.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email Address:</label>
-                            <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                            <label>Email:</label>
+                            <input type="email" class="form-control" id="email" required data-validation-required-message="Por favor, digite seu email.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Message:</label>
-                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none"></textarea>
+                            <label>Mensagem:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Por favor, digite sua mensagem." maxlength="999" style="resize:none"></textarea>
                         </div>
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
 
@@ -97,7 +105,7 @@
         
         <footer class="footer">
       <!-- <footer class="container text-center"> -->  
-        <p>&copy; 2015 IAE Consultoria</p>
+        <p>Copyright &copy; 2015 IAE Consultoria</p>
       </footer>
       
     </div><!--/container-->
@@ -108,6 +116,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/jqBootstrapValidation.js"></script>
+
     <script src="js/contact_me.js"></script>
      
   </body>
